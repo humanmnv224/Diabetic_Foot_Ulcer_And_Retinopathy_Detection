@@ -227,7 +227,7 @@ This rule is intentionally simple and interpretable for triage messaging.
    pip install -r requirements.txt
    ```
 
-   > Note: `requirements.txt` is for deploying and running the Streamlit app only. The DFU training pipeline uses TensorFlow and is managed separately in `dfu_progression_project/requirements.txt`.
+   > Note: `requirements.txt` is for deploying and running the Streamlit app only. The DFU training pipeline uses TensorFlow and is managed separately in `dfu_progression_project/training-requirements.txt`.
 
 4. Run the Streamlit app:
    ```powershell
