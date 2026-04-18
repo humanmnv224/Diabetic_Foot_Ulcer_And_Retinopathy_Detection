@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-04-16T02:18:28",
+  "report_title": "DFU + Retinopathy Model Performance Report",
+  "note": "Values below are actual measured results from saved training artifacts.",
+  "dfu": {
+    "source_summary_file": "C:\\Users\\valva\\OneDrive\\Desktop\\dfu\\dfu_progression_project\\artifacts\\metrics\\run-2026-04-15-19-31-42_summary.json",
+    "run_id": "run-2026-04-15-19-31-42",
+    "train_loss_epoch": 0.8254090547561646,
+    "val_loss_epoch": 0.8429330587387085,
+    "val_acc_epoch": 0.6666666865348816,
+    "val_acc_percent": "70.67%",
+    "val_kappa_epoch": 0.1308557242155075,
+    "quality_band": "moderate",
+    "best_model_path": "C:\\Users\\valva\\OneDrive\\Desktop\\dfu\\dfu_progression_project\\artifacts\\checkpoints\\run-2026-04-15-19-31-42\\epoch=4-step=125-val_loss=0.84-val_acc=0.67-val_kappa=0.13.ckpt",
+    "best_model_score": 0.8429330587387085
+  },
+  "retinopathy": {
+    "source_checkpoint_file": "C:\\Users\\valva\\OneDrive\\Desktop\\dfu\\diabetic-retinopathy-detection-main\\artifacts\\dr-model.ckpt",
+    "epoch": 11,
+    "global_step": 2640,
+    "num_classes": 5,
+    "model_name": "densenet169",
+    "learning_rate": 0.0003,
+    "best_val_loss": 0.7232726216316223,
+    "best_val_acc_from_path": 0.75,
+    "best_val_acc_percent": "75.00%",
+    "best_val_kappa_from_path": 0.29,
+    "quality_band": "moderate_to_good",
+    "meets_80_percent_target": false,
+    "best_model_path_saved_in_checkpoint": "/teamspace/studios/this_studio/dr-detection/artifacts/checkpoints/run-2024-03-29-12-12-21/epoch=11-step=2640-val_loss=0.72-val_acc=0.75-val_kappa=0.29.ckpt"
+  },
+  "summary": {
+    "stronger_model_currently": "retinopathy",
+    "overall_status": "moderate",
+    "presentation_message": "Current performance is moderate and improving; retinopathy is closer to the 80% target than DFU."
+  }
+}

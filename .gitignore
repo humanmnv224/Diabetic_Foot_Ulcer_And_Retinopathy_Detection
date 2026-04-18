@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+.history/
+
+# Data and artifacts
+DFU_Dataset/
+logs/
+
+# Optional local directories
+dfu_progression_project/dataset/
+# Keep trained model artifacts and checkpoints
+# dfu_progression_project/artifacts/
+# diabetic-retinopathy-detection-main/artifacts/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp

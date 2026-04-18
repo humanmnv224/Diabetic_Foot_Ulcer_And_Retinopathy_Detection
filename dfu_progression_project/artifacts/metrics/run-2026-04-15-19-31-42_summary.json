@@ -1,0 +1,15 @@
+{
+  "train_loss": 0.8254090547561646,
+  "train_loss_step": 0.8949108719825745,
+  "lr-AdamW": 0.0003000000142492354,
+  "val_loss": 0.8429330587387085,
+  "val_loss_epoch": 0.8429330587387085,
+  "val_acc": 0.6666666865348816,
+  "val_acc_epoch": 0.6666666865348816,
+  "val_kappa": 0.1308557242155075,
+  "val_kappa_epoch": 0.1308557242155075,
+  "train_loss_epoch": 0.8254090547561646,
+  "run_id": "run-2026-04-15-19-31-42",
+  "best_model_path": "C:\\Users\\valva\\OneDrive\\Desktop\\dfu\\dfu_progression_project\\artifacts\\checkpoints\\run-2026-04-15-19-31-42\\epoch=4-step=125-val_loss=0.84-val_acc=0.67-val_kappa=0.13.ckpt",
+  "best_model_score": 0.8429330587387085
+}

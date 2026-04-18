@@ -1,0 +1,17 @@
+train_csv_path: dataset/dfu_train.csv
+val_csv_path: dataset/dfu_val.csv
+
+seed: 42
+batch_size: 32
+num_workers: 0
+use_class_weighting: true
+use_weighted_sampler: false
+model_name: "efficientnet_b0"
+max_epochs: 20
+image_size: 160
+learning_rate: 3e-4
+use_scheduler: true
+
+logs_dir: logs
+checkpoint_dirpath: artifacts/checkpoints
+metrics_dir: artifacts/metrics
